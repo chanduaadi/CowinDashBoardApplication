@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.page-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+}
+.page-logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.logo-text {
+  color: #2cc6c6;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.page-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.chats-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-img {
+  height: 500px;
+  width: 500px;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+}
+.failure-view-text {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
